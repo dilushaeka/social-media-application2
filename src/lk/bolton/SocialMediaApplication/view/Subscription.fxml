@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="lk.bolton.SocialMediaApplication.controller.SubscriptionController">
+    <Button text="Subscribe" fx:id="subscribeButton" onAction="#onSubscribeClicked"/>
+    <Button text="Unsubscribe" fx:id="unsubscribeButton" onAction="#onUnsubscribeClicked"/>
+</VBox>

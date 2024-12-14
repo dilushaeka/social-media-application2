@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root1" prefHeight="938.0" prefWidth="1428.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.bolton.SocialMediaApplication.controller.dashboardController">
+   <children>
+      <Pane prefHeight="81.0" prefWidth="30.0" style="-fx-background-color: linear-gradient(to bottom left, #c91306,  #7d7777,#0d0c0c);" />
+      <Pane layoutY="849.0" prefHeight="89.0" prefWidth="30.0" style="-fx-background-color: linear-gradient(to bottom left, #c91306,  #7d7777,#0d0c0c);" />
+      <Pane fx:id="context" layoutX="197.0" layoutY="25.0" prefHeight="908.0" prefWidth="1226.0" />
+      <VBox alignment="TOP_CENTER" prefHeight="938.0" prefWidth="185.0" style="-fx-background-color: linear-gradient(to bottom left, #c91306,  #7d7777,#0d0c0c); -fx-background-radius: 30;">
+         <children>
+            <ImageView fitHeight="147.0" fitWidth="198.0" pickOnBounds="true" />
+            <JFXButton fx:id="btnDashBoard" buttonType="RAISED" onAction="#DashBoardOnAction" prefHeight="87.0" prefWidth="184.0" text="HOME PAGE" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="41.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/dashboard.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" onAction="#btnViewAllUsers" prefHeight="88.0" prefWidth="184.0" text="VIEW ALL USERS " textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="41.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/Girl.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" onAction="#AddPostOnAction" prefHeight="88.0" prefWidth="184.0" text="ADD POST    " textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="41.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/additem.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" onAction="#btnAboutOnAction" prefHeight="90.0" prefWidth="184.0" text=" ABOUT        " textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="43.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/icons8-info-64.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </JFXButton>
+            <Pane prefHeight="85.0" prefWidth="185.0">
+               <children>
+                  <JFXButton buttonType="RAISED" layoutX="7.0" layoutY="8.0" onAction="#btnLogOut" prefHeight="5.0" prefWidth="185.0" style="-fx-background-color: black;" text="LOGOUT" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="32.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+   </children>
+   <effect>
+      <DropShadow height="24.11" radius="25.55" spread="0.07" width="80.09" />
+   </effect>
+</AnchorPane>

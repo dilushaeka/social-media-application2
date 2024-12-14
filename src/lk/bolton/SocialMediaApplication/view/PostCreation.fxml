@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="lk.bolton.SocialMediaApplication.controller.PostController">
+    <TextArea fx:id="postContentTextArea" promptText="Write your post here..."/>
+    <Button text="Create Post" fx:id="createPostButton" onAction="#onCreatePostClicked"/>
+</VBox>
+

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="908.0" prefWidth="1226.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.bolton.SocialMediaApplication.controller.AboutFormFormController">
+   <Pane layoutX="-1.0" layoutY="-3.0" prefHeight="78.0" prefWidth="1226.0" style="-fx-background-color: linear-gradient(to bottom left, #c91306,  #7d7777,#0d0c0c) linear-gradient(to bottom left, #c91306,  #7d7777,#0d0c0c);" />
+   <Label layoutX="437.0" layoutY="302.0" prefHeight="31.0" prefWidth="365.0" text="Social Media Application System">
+      <font>
+         <Font name="System Bold" size="21.0" />
+      </font>
+   </Label>
+   <Label layoutX="558.0" layoutY="333.0" prefHeight="31.0" prefWidth="111.0" text="Version 1.0.0">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Label>
+   <Label layoutX="381.0" layoutY="362.0" prefHeight="31.0" prefWidth="474.0" text="Copyright © 2024 UK . All Rights Reserved">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Label>
+   <Label layoutX="264.0" layoutY="423.0" text="A  Program  for manage  production of D&amp;H Software Solution  (PVT) LTD,">
+      <font>
+         <Font size="21.0" />
+      </font>
+   </Label>
+   <Label layoutX="259.0" layoutY="454.0" text="This Sociam Media Applivcation  software">
+      <font>
+         <Font size="21.0" />
+      </font>
+   </Label>
+   <Label layoutX="264.0" layoutY="573.0" text="These are the facilities of this software,">
+      <font>
+         <Font name="System Bold" size="20.0" />
+      </font>
+   </Label>
+   <Label layoutX="265.0" layoutY="615.0" prefHeight="31.0" prefWidth="342.0" text="- View All Users">
+      <font>
+         <Font size="21.0" />
+      </font>
+   </Label>
+   <Label layoutX="264.0" layoutY="643.0" prefHeight="31.0" prefWidth="342.0" text="- Manage Posts">
+      <font>
+         <Font size="21.0" />
+      </font>
+   </Label>
+   <Label layoutX="264.0" layoutY="671.0" prefHeight="31.0" prefWidth="342.0" text="- Manage Subscription">
+      <font>
+         <Font size="21.0" />
+      </font>
+   </Label>
+   <Label layoutX="422.0" layoutY="819.0" text="Contact Us">
+      <font>
+         <Font name="System Bold" size="20.0" />
+      </font>
+   </Label>
+   <ImageView fitHeight="38.0" fitWidth="40.0" layoutX="554.0" layoutY="815.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../resources/Facebook.png" />
+   </ImageView>
+   <ImageView fitHeight="38.0" fitWidth="40.0" layoutX="606.0" layoutY="815.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../resources/instergram.png" />
+   </ImageView>
+   <ImageView fitHeight="38.0" fitWidth="40.0" layoutX="656.0" layoutY="815.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../resources/LinkedIn.png" />
+   </ImageView>
+   <ImageView fitHeight="38.0" fitWidth="40.0" layoutX="706.0" layoutY="815.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../resources/Youtube.png" />
+   </ImageView>
+   <ImageView fitHeight="38.0" fitWidth="40.0" layoutX="759.0" layoutY="815.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../resources/Tweeter.png" />
+   </ImageView>
+</AnchorPane>

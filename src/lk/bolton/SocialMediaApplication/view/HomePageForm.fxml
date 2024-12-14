@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="908.0" prefWidth="1226.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.bolton.SocialMediaApplication.controller.HomaPageController">
+    <children>
+
+        <!-- Top Pane (Header) -->
+        <Pane layoutX="-1.0" layoutY="-3.0" prefHeight="78.0" prefWidth="1226.0" style="-fx-background-color: linear-gradient(to bottom left, #c91306, #7d7777, #0d0c0c);" />
+
+        <!-- Main Content Area to Load Subscribed User Posts -->
+        <VBox fx:id="postContainer" layoutX="14.0" layoutY="90.0" prefHeight="800.0" prefWidth="1200.0" spacing="10" style="-fx-background-color: #f4f4f4; -fx-padding: 10px;">
+        </VBox>
+    </children>
+</AnchorPane>
